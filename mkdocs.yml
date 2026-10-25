@@ -1,4 +1,4 @@
-site_name: 'Футбол данные'
+site_name: 'Футбол: данные'
 site_description: 'Задание 3. Исследование T2 и воспроизводимый эксперимент P3 на футбольном датасете.'
 site_url: !ENV [MKDOCS_SITE_URL, 'https://danyaborisoff-collab.github.io/python/']
 repo_url: https://github.com/danyaborisoff-collab/python
