@@ -1,0 +1,5 @@
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /vercel/sandbox/data/research-site/site
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - assets/vendor/Chart.js-LICENSE.md
+INFO    -  Documentation built in 0.45 seconds

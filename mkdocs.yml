@@ -1,0 +1,62 @@
+site_name: 'Футбол: данные → результат → сайт'
+site_description: 'Задание 3. Исследование T2 и воспроизводимый эксперимент P3 на футбольном датасете.'
+site_url: !ENV [MKDOCS_SITE_URL, 'https://danyaborisoff-collab.github.io/python/']
+repo_url: https://github.com/danyaborisoff-collab/python
+repo_name: danyaborisoff-collab/python
+use_directory_urls: false
+strict: true
+theme:
+  name: material
+  custom_dir: overrides
+  language: ru
+  font: false
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+plugins:
+  - search:
+      lang: [ru, en]
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - toc:
+      permalink: true
+validation:
+  links:
+    not_found: warn
+    unrecognized_links: warn
+    anchors: warn
+extra_css:
+  - assets/site.css
+nav:
+  - Обзор: index.md
+  - Данные и методика: data.md
+  - 'T2: конвейер публикации': theory-t2.md
+  - Результаты: generated/results.md
+  - 'P3: воспроизводимость': practice-p3.md
+  - Сборка и развёртывание: delivery.md
+  - Отладка и проверки: debugging.md
+  - Измерения: generated/measurements.md
+  - Лицензии и источники: sources.md
+copyright: 'Код — MIT; авторский текст — CC BY 4.0; сторонние данные — отдельные условия.'

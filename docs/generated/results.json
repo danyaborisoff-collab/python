@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "commit": "local-uncommitted",
+    "built_at": "2026-10-25T15:34:15.095501+00:00",
+    "dataset_version": "football-gb1-2012-2024-v1",
+    "data_sha256": "e7eb691e82a8606e1422a5f455591f9d9f2716522cd866d5ae1559c34477d9da",
+    "code_sha256": "dafdd69c91ac1159e58e5a20b3f569ebf6c885b23a3d795126a7aeac600efe69",
+    "cache_key": "3c05535a026dd22510841bacdcbf41a40c4ad08cc28028cb8ef978d652288287",
+    "cache_status": "HIT",
+    "python": "3.13.15",
+    "compute_seconds": 0.002077273999930185
+  },
+  "result": {
+    "away_wins": 1567,
+    "date_max": "2025-05-25",
+    "date_min": "2012-08-18",
+    "draws": 1165,
+    "home_wins": 2208,
+    "rows": 4940,
+    "seasons": [
+      {
+        "away_goals": 471,
+        "away_win_pct": 27.894736842105264,
+        "away_wins": 106,
+        "draws": 108,
+        "home_goals": 592,
+        "home_win_pct": 43.68421052631579,
+        "home_wins": 166,
+        "matches": 380,
+        "mean_goal_diff": 0.31842105263157894,
+        "season": 2012
+      },
+      {
+        "away_goals": 454,
+        "away_win_pct": 32.36842105263158,
+        "away_wins": 123,
+        "draws": 78,
+        "home_goals": 598,
+        "home_win_pct": 47.10526315789474,
+        "home_wins": 179,
+        "matches": 380,
+        "mean_goal_diff": 0.37894736842105264,
+        "season": 2013
+      },
+      {
+        "away_goals": 415,
+        "away_win_pct": 30.263157894736842,
+        "away_wins": 115,
+        "draws": 93,
+        "home_goals": 560,
+        "home_win_pct": 45.26315789473684,
+        "home_wins": 172,
+        "matches": 380,
+        "mean_goal_diff": 0.3815789473684211,
+        "season": 2014
+      },
+      {
+        "away_goals": 459,
+        "away_win_pct": 30.526315789473685,
+        "away_wins": 116,
+        "draws": 107,
+        "home_goals": 567,
+        "home_win_pct": 41.31578947368421,
+        "home_wins": 157,
+        "matches": 380,
+        "mean_goal_diff": 0.28421052631578947,
+        "season": 2015
+      },
+      {
+        "away_goals": 457,
+        "away_win_pct": 28.68421052631579,
+        "away_wins": 109,
+        "draws": 84,
+        "home_goals": 607,
+        "home_win_pct": 49.21052631578947,
+        "home_wins": 187,
+        "matches": 380,
+        "mean_goal_diff": 0.39473684210526316,
+        "season": 2016
+      },
+      {
+        "away_goals": 436,
+        "away_win_pct": 28.42105263157895,
+        "away_wins": 108,
+        "draws": 99,
+        "home_goals": 582,
+        "home_win_pct": 45.526315789473685,
+        "home_wins": 173,
+        "matches": 380,
+        "mean_goal_diff": 0.38421052631578945,
+        "season": 2017
+      },
+      {
+        "away_goals": 476,
+        "away_win_pct": 33.68421052631579,
+        "away_wins": 128,
+        "draws": 71,
+        "home_goals": 596,
+        "home_win_pct": 47.63157894736842,
+        "home_wins": 181,
+        "matches": 380,
+        "mean_goal_diff": 0.3157894736842105,
+        "season": 2018
+      },
+      {
+        "away_goals": 458,
+        "away_win_pct": 30.526315789473685,
+        "away_wins": 116,
+        "draws": 92,
+        "home_goals": 576,
+        "home_win_pct": 45.26315789473684,
+        "home_wins": 172,
+        "matches": 380,
+        "mean_goal_diff": 0.3105263157894737,
+        "season": 2019
+      },
+      {
+        "away_goals": 510,
+        "away_win_pct": 40.26315789473684,
+        "away_wins": 153,
+        "draws": 83,
+        "home_goals": 514,
+        "home_win_pct": 37.89473684210526,
+        "home_wins": 144,
+        "matches": 380,
+        "mean_goal_diff": 0.010526315789473684,
+        "season": 2020
+      },
+      {
+        "away_goals": 496,
+        "away_win_pct": 33.94736842105263,
+        "away_wins": 129,
+        "draws": 88,
+        "home_goals": 575,
+        "home_win_pct": 42.89473684210526,
+        "home_wins": 163,
+        "matches": 380,
+        "mean_goal_diff": 0.20789473684210527,
+        "season": 2021
+      },
+      {
+        "away_goals": 463,
+        "away_win_pct": 28.68421052631579,
+        "away_wins": 109,
+        "draws": 87,
+        "home_goals": 621,
+        "home_win_pct": 48.421052631578945,
+        "home_wins": 184,
+        "matches": 380,
+        "mean_goal_diff": 0.41578947368421054,
+        "season": 2022
+      },
+      {
+        "away_goals": 562,
+        "away_win_pct": 32.36842105263158,
+        "away_wins": 123,
+        "draws": 82,
+        "home_goals": 684,
+        "home_win_pct": 46.05263157894737,
+        "home_wins": 175,
+        "matches": 380,
+        "mean_goal_diff": 0.32105263157894737,
+        "season": 2023
+      },
+      {
+        "away_goals": 540,
+        "away_win_pct": 34.73684210526316,
+        "away_wins": 132,
+        "draws": 93,
+        "home_goals": 575,
+        "home_win_pct": 40.78947368421053,
+        "home_wins": 155,
+        "matches": 380,
+        "mean_goal_diff": 0.09210526315789473,
+        "season": 2024
+      }
+    ]
+  }
+}

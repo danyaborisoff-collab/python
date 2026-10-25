@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/tmp/tmpdkf8h67s/scripts/experiment.py", line 181, in <module>
+    main()
+    ~~~~^^
+  File "/tmp/tmpdkf8h67s/scripts/experiment.py", line 168, in main
+    result=calculate(DATA)
+  File "/tmp/tmpdkf8h67s/scripts/experiment.py", line 36, in calculate
+    raise ValueError(f'invalid score at line {line}')
+ValueError: invalid score at line 2

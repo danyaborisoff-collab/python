@@ -1,0 +1,43 @@
+{
+  "scope": "local HTTP under /course/research/, external domains blocked; NOT a remote deployment",
+  "http": {
+    "home": 200,
+    "results": 200,
+    "marker": true
+  },
+  "chart": {
+    "points": 13,
+    "first": 43.68421052631579,
+    "last": 40.78947368421053,
+    "unsafe": null,
+    "policy": null,
+    "overflow": false,
+    "localLibrary": true,
+    "caption": "Доля побед номинальных хозяев по сезонам"
+  },
+  "formula": {
+    "width": 688,
+    "height": 37.0625,
+    "fraction": true
+  },
+  "search": {
+    "query": "кэш",
+    "items": 5,
+    "text": "Найдено совпадений: 5"
+  },
+  "mobile": [
+    {
+      "width": 390,
+      "documentOverflow": false,
+      "chartOverflow": false
+    },
+    {
+      "width": 320,
+      "documentOverflow": false,
+      "chartOverflow": false
+    }
+  ],
+  "externalRequestsAttempted": [],
+  "consoleErrors": [],
+  "httpErrors": []
+}

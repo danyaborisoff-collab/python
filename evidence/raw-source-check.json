@@ -1,0 +1,8 @@
+{
+  "method": "independent pandas aggregation directly from original archive games.csv, not project subset",
+  "matches": 4940,
+  "home_wins": 2208,
+  "date_min": "2012-08-18",
+  "date_max": "2025-05-25",
+  "all_seasons_reconciled": true
+}

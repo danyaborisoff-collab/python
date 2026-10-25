@@ -1,0 +1,17 @@
+.venv/
+venv/
+env/
+site/
+_build/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+*.pem
+id_ed25519*
+archive.zip
+.DS_Store
+
+.lint-site/

@@ -1,0 +1,15 @@
+test_duplicate (test_experiment.ExperimentTests.test_duplicate) ... /vercel/sandbox/data/research-site/tests/test_experiment.py:26: ResourceWarning: unclosed file <_io.TextIOWrapper name='/vercel/sandbox/data/research-site/data/matches.csv' mode='r' encoding='utf-8'>
+  rows=list(csv.DictReader((ROOT/'data/matches.csv').open(encoding='utf-8')))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_fixture (test_experiment.ExperimentTests.test_fixture) ... ok
+test_invalid_date (test_experiment.ExperimentTests.test_invalid_date) ... /vercel/sandbox/data/research-site/tests/test_experiment.py:18: ResourceWarning: unclosed file <_io.TextIOWrapper name='/vercel/sandbox/data/research-site/data/matches.csv' mode='r' encoding='utf-8'>
+  rows=list(csv.DictReader((ROOT/'data/matches.csv').open(encoding='utf-8')))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_invalid_score (test_experiment.ExperimentTests.test_invalid_score) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.148s
+
+OK

@@ -1,0 +1,105 @@
+{
+  "measured_at": "2026-10-25T15:34:18.715780+00:00",
+  "environment": "Linux-6.18.49-x86_64-with-glibc2.34",
+  "python": "3.13.15",
+  "scope": "local environment, application cache; no OS cache flush; NOT a GitHub runner benchmark",
+  "experiment_runs": [
+    {
+      "run": 1,
+      "case": "MISS",
+      "wall_seconds": 0.1292261570001756,
+      "compute_seconds": 0.03058422599997357
+    },
+    {
+      "run": 1,
+      "case": "HIT",
+      "wall_seconds": 0.09137687199995526,
+      "compute_seconds": 0.002171536000105334
+    },
+    {
+      "run": 2,
+      "case": "MISS",
+      "wall_seconds": 0.1285921569999573,
+      "compute_seconds": 0.03249466800002665
+    },
+    {
+      "run": 2,
+      "case": "HIT",
+      "wall_seconds": 0.09460405400000127,
+      "compute_seconds": 0.0021888070000386506
+    },
+    {
+      "run": 3,
+      "case": "MISS",
+      "wall_seconds": 0.11748364699997182,
+      "compute_seconds": 0.03113215199982733
+    },
+    {
+      "run": 3,
+      "case": "HIT",
+      "wall_seconds": 0.08949430299981032,
+      "compute_seconds": 0.0022803770000336954
+    },
+    {
+      "run": 4,
+      "case": "MISS",
+      "wall_seconds": 0.1188316649997887,
+      "compute_seconds": 0.03223320500001137
+    },
+    {
+      "run": 4,
+      "case": "HIT",
+      "wall_seconds": 0.08729390999997122,
+      "compute_seconds": 0.002127877000020817
+    },
+    {
+      "run": 5,
+      "case": "MISS",
+      "wall_seconds": 0.11878419700019549,
+      "compute_seconds": 0.0311279420000119
+    },
+    {
+      "run": 5,
+      "case": "HIT",
+      "wall_seconds": 0.08690833399987241,
+      "compute_seconds": 0.002077273999930185
+    }
+  ],
+  "medians_wall_seconds": {
+    "MISS": 0.1188316649997887,
+    "HIT": 0.08949430299981032
+  },
+  "medians_compute_seconds": {
+    "MISS": 0.03113215199982733,
+    "HIT": 0.002171536000105334
+  },
+  "wall_speedup": 1.327812620654083,
+  "compute_speedup": 14.33646598459211,
+  "strict_build_runs": [
+    {
+      "run": 1,
+      "wall_seconds": 0.7227161869998326
+    },
+    {
+      "run": 2,
+      "wall_seconds": 0.6912926150000658
+    },
+    {
+      "run": 3,
+      "wall_seconds": 0.681494500999861
+    },
+    {
+      "run": 4,
+      "wall_seconds": 0.695405289999826
+    },
+    {
+      "run": 5,
+      "wall_seconds": 0.6903329190001841
+    }
+  ],
+  "strict_build_median_seconds": 0.6912926150000658,
+  "site_bytes": 3828460,
+  "results_html_bytes": 26665,
+  "figure_html_bytes": 39520,
+  "chart_library_bytes": 205125
+}

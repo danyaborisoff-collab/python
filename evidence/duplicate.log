@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/tmp/tmpdkf8h67s/scripts/experiment.py", line 181, in <module>
+    main()
+    ~~~~^^
+  File "/tmp/tmpdkf8h67s/scripts/experiment.py", line 168, in main
+    result=calculate(DATA)
+  File "/tmp/tmpdkf8h67s/scripts/experiment.py", line 31, in calculate
+    raise ValueError(f'duplicate game_id={gid}')
+ValueError: duplicate game_id=2230140

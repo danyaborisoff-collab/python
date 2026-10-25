@@ -1,0 +1,7 @@
+:root { --md-text-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; --md-code-font: "Courier New", monospace; }
+.md-typeset h1 { font-weight: 750; letter-spacing: -.025em; }
+.md-typeset iframe { display: block; width: 100%; max-width: 100%; }
+.md-typeset table:not([class]) { font-size: .72rem; }
+.md-typeset .lead { font-size: 1.12rem; line-height: 1.65; }
+.md-typeset math { margin: 1.5rem auto; font-size: 1.2em; }
+@media print { .md-header, .md-sidebar, .md-footer, .md-search { display:none } .md-content { margin:0 } }
