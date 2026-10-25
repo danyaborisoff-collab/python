@@ -10,9 +10,9 @@
 | Генератор | MkDocs 1.6.1 + Material 9.6.23 |
 | Локальный preview | `make serve` / `python -m mkdocs serve` |
 | Строгая сборка | `make build`, `strict: true`, диагностика ссылок настроена как warnings |
-| Репозиторий | [danyaborisoff-collab/python](https://github.com/danyaborisoff-collab/python); первоначальный 403 устранён переподключением; создана ветка research-site-t2-p3 |
-| GitHub Actions | Конфигурация подготовлена; удалённый запуск не подтверждён |
-| GitHub Pages | Нужно выбрать Source = GitHub Actions и выполнить merge/push в main |
+| Репозиторий | [danyaborisoff-collab/python](https://github.com/danyaborisoff-collab/python); первоначальный 403 устранён; PR #1 слит в main |
+| GitHub Actions | [lint/build/deploy успешно](https://github.com/danyaborisoff-collab/python/actions/runs/40208648142) |
+| GitHub Pages | [Опубликован](https://danyaborisoff-collab.github.io/python/); Source = GitHub Actions, HTTP healthcheck успешен |
 | Отечественный хостинг | SSH workflow подготовлен, аккаунт/путь ещё не предоставлены |
 | URL и подкаталог | `use_directory_urls: false`, относительные ссылки; канонический URL через MKDOCS_SITE_URL |
 | Контроль качества | Валидация CSV, независимый пересчёт, ссылки/якоря, HTTP marker, поиск, локальные ресурсы |
@@ -144,7 +144,7 @@ Google Fonts отключены (`font: false`), Chart.js 4.4.1 хранится
 
 Нужно сохранить URL успешного workflow, скриншот lint/build/deploy и намеренно проваленного запуска,
 фактические URL двух хостингов, HTTP-логи и замеры доставки.
-Сейчас такие доказательства не заменяются локальными скриншотами или вымышленными ссылками.
+Успешный удалённый запуск уже получен: [Actions](https://github.com/danyaborisoff-collab/python/actions/runs/40208648142); HTTP-проверка записана в evidence/remote-deployment.json. Скриншоты удалённых workflow и реальный негативный PR-запуск ещё не приложены.
 
 ## Полный workflow GitHub Pages
 
@@ -331,3 +331,9 @@ jobs:
           done
           echo 'Domestic healthcheck failed' >&2; exit 1
 ```
+
+## Подтверждённая публикация
+
+[GitHub Pages](https://danyaborisoff-collab.github.io/python/) · [успешный workflow](https://github.com/danyaborisoff-collab/python/actions/runs/40208648142) · merge-коммит `c0629d1f22d68bfc0db8544c48686687e3a5beb5`.
+
+Главная и страница результатов вернули HTTP 200, контрольная строка RESEARCH-SITE-OK присутствует.

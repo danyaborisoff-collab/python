@@ -47,10 +47,17 @@ def main():
               f"| Полная mkdocs build --strict, медиана 5 запусков, с | {record['strict_build_median_seconds']:.6f} |",
               f"| Весь каталог site, байт | {size} |",f"| HTML страницы результатов, байт | {record['results_html_bytes']} |",
               f"| HTML графика, байт | {record['figure_html_bytes']} |",f"| Локальная Chart.js, байт | {record['chart_library_bytes']} |",
-              '| Удалённый деплой GitHub Pages | Не выполнен / нет замера |',
+              ('| Удалённый деплой GitHub Pages | Подтверждён; см. evidence/remote-deployment.json |' if (ROOT/'evidence/remote-deployment.json').exists() else '| Удалённый деплой GitHub Pages | Не выполнен / нет замера |'),
               '| Удалённый деплой отечественный хостинг | Не выполнен / нет замера |',
               '', 'Все пять сборок — полные; это не измерение инкрементального live-reload. Размер — несжатые байты на диске, не трафик с gzip.',
               'JSON и CSV с отдельными повторами лежат в `evidence/benchmark.json` и `evidence/benchmark.csv` репозитория.']
+    remote_path=ROOT/'evidence/remote-deployment.json'
+    if remote_path.exists():
+        remote=json.loads(remote_path.read_text(encoding='utf-8'))
+        lines += ['', '## Реальный GitHub Actions запуск', '', f"[Источник времён job]({remote['workflow']}). Один исторический запуск; включает настройку и проверки, не только передачу файлов.", '', '| Job | Длительность, с | Результат |', '| --- | ---: | --- |']
+        for job in remote['jobs']:
+            elapsed=(datetime.fromisoformat(job['completed_at'].replace('Z','+00:00'))-datetime.fromisoformat(job['started_at'].replace('Z','+00:00'))).total_seconds()
+            lines.append(f"| {job['name']} | {elapsed:.0f} | {job['conclusion']} |")
     (ROOT/'docs/generated/measurements.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     print(json.dumps({k:record[k] for k in ['medians_wall_seconds','medians_compute_seconds','wall_speedup','strict_build_median_seconds','site_bytes']},ensure_ascii=False))
 if __name__=='__main__':main()
