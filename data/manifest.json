@@ -1,0 +1,48 @@
+{
+  "dataset_version": "football-gb1-2012-2024-v1",
+  "source": "User attachment archive.zip; original publisher and redistribution license not supplied",
+  "original_archive_sha256": "f02039dc87628653d7b571c9420c729c5df5730de5209febf33b8faf173fb571",
+  "original_games_sha256": "c24da068cc7444e1e345c274d8d2320226cafc02186a17de2cf766eccb8ae79b",
+  "subset_sha256": "e7eb691e82a8606e1422a5f455591f9d9f2716522cd866d5ae1559c34477d9da",
+  "selection": "competition_id = GB1; 2012 <= season <= 2024; 6 columns; sorted by season,date,game_id",
+  "rows": 4940,
+  "original_files": [
+    {
+      "file": "club_games.csv",
+      "bytes": 14748080
+    },
+    {
+      "file": "clubs.csv",
+      "bytes": 208374
+    },
+    {
+      "file": "competitions.csv",
+      "bytes": 12247
+    },
+    {
+      "file": "countries.csv",
+      "bytes": 15058
+    },
+    {
+      "file": "games.csv",
+      "bytes": 28965132
+    },
+    {
+      "file": "national_teams.csv",
+      "bytes": 32980
+    },
+    {
+      "file": "player_valuations.csv",
+      "bytes": 39647280
+    },
+    {
+      "file": "players.csv",
+      "bytes": 19624138
+    },
+    {
+      "file": "transfers.csv",
+      "bytes": 18112063
+    }
+  ],
+  "license": "UNKNOWN: third-party data not relicensed under MIT or CC BY. Confirm source and terms before wider redistribution."
+}

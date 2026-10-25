@@ -1,0 +1,19 @@
+{
+  "question": "Меняется ли доля побед номинальных хозяев между сезонами GB1?",
+  "grain": "один матч; затем сезон",
+  "population": "GB1, season=2012..2024",
+  "unit": "проценты матчей",
+  "comparisons": [
+    {
+      "measure": "home_win_pct",
+      "disposition": "chart",
+      "reason": "временной профиль доли побед"
+    },
+    {
+      "measure": "matches/home_wins/draws/away_wins/mean_goal_diff",
+      "disposition": "table",
+      "reason": "проверка знаменателей и дополнительная характеристика, без отдельного графика"
+    }
+  ],
+  "finding": "Общая доля 44.70%; минимум 2020 (37.89%), максимум 2016 (49.21%)."
+}

@@ -1,0 +1,9 @@
+{
+  "python": "3.13.15",
+  "platform": "Linux-6.18.49-x86_64-with-glibc2.34",
+  "pip_check": "passed in original and clean venv",
+  "clean_install": "--no-cache-dir, exact requirements",
+  "setup_python_manifest": "3.13.15 linux x64 verified available",
+  "preview": "mkdocs serve returned HTTP 200 with control marker",
+  "scope": "all execution evidence is local; remote GitHub/SSH deployment not yet performed"
+}
